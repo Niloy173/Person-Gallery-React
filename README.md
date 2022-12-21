@@ -1,7 +1,8 @@
-# PERSON GALLERY - REACT
+# INDIVIUAL CHARACTER GALLERY - REACT
 
-This is a react person gallery project with necessary filtering option & add to cart
-feature with the help of [Faker API](https://fakerjs.dev/) data.
+This is a react project about indiviual human being with their information and this project focuses on accroding to the change through filter options , add to cart and also costing message
+request depending on how many message you want to send a single user in the cart page.All the data
+provided with the help of [Faker API](https://fakerjs.dev/) data.
 
 ## This project Includes
 
