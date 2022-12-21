@@ -1,0 +1,19 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
+import './index.css';
+
+// context file
+import { ContextProvider } from './context/Context';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+   
+      <ContextProvider>
+        <App/>
+      </ContextProvider>
+    
+  </React.StrictMode>
+);

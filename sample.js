@@ -1,0 +1,1 @@
+// [...Array(3).keys()].map((x) => console.log(x+1))

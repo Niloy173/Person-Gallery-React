@@ -1,0 +1,31 @@
+.filters {
+  background-color: #343a40;
+  color: white;
+  padding: 20px;
+  flex-direction: column;
+  width: 25%;
+  justify-content: space-between;
+  margin: 10px;
+  height: 120vh;
+}
+
+.filters > div {
+  padding: 20px 0;
+}
+
+.title {
+  padding-bottom: 20px;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 1069px) {
+  .filters {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .filters {
+    width: 35%;
+  }
+}

@@ -1,0 +1,82 @@
+.person {
+  display: flex;
+  flex-direction: column;
+}
+
+.profileCard {
+  width: 20rem;
+  margin: 10px;
+}
+
+.cardItem {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.cardItem > div {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+.cartItemImg {
+  display: block;
+  width: 45px;
+  border: 0.8px solid cyan;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.cartItemDetail {
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+  gap: 2px;
+}
+.cartItemDetail span:nth-child(1) {
+  font-size: 16px;
+  color: black;
+}
+.cartItemDetail span:nth-child(2) {
+  font-size: 14px;
+  color: darkgrey;
+}
+
+.delete_connection {
+  cursor: pointer;
+}
+
+.summary {
+  background-color: #343a40;
+  color: white;
+  padding: 20px;
+  flex-direction: column;
+  width: 30%;
+  justify-content: space-between;
+  margin: 10px;
+  height: 120vh;
+}
+
+.summary > div {
+  margin: 20px 0;
+}
+
+@media screen and (max-width: 1069px) {
+  .profileCard {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .profileCard {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 569px) {
+  .profileCard {
+    width: 250px;
+  }
+}

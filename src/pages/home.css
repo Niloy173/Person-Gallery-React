@@ -1,0 +1,25 @@
+.home {
+  display: flex;
+}
+
+.productContainer {
+  display: flex;
+  width: 70%;
+  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1069px) {
+  .productContainer {
+    width: 55%;
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .productContainer {
+    width: 65%;
+    padding: 0;
+  }
+}
