@@ -20,4 +20,4 @@ Runs the app in the development mode.Open [http://localhost:3000](http://localho
 
 ### Deployment
 
-This project has deployed here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This project has deployed here: [https://characters-gallery.netlify.app/](https://characters-gallery.netlify.app/)
