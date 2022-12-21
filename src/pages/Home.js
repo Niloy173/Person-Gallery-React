@@ -54,7 +54,7 @@ const Home = () => {
       )
     }
 
-    console.log(newFormData.length)
+    //console.log(newFormData.length)
     return newFormData;
 
   }
